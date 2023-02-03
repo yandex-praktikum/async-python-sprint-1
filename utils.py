@@ -15,6 +15,14 @@ CITIES = {
     "ROMA": "https://code.s3.yandex.net/async-module/roma-response.json",
     "CAIRO": "https://code.s3.yandex.net/async-module/cairo-response.json",
 }
+
+TIME_INTERVAL = ['9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19']
+GOOD_WEATHER = ['clear', 'partly-cloudy', 'cloudy', 'overcast']  # Weather without precipitation
+FILE_NAME = 'data.csv'
+
+TEMPERATURE_TASK_NAME = 'temperature'
+HOURS_WITHOUT_PRECIPITATION_TASK_NAME = 'hours_without_precipitation'
+
 ERR_MESSAGE_TEMPLATE = "Something wrong. Please contact with mentor."
 
 MIN_MAJOR_PYTHON_VER = 3
